@@ -1,0 +1,27 @@
+{
+  "name": "website",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "dev:cms": "tinacms dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/cloudflare": "^12.0.0",
+    "@astrojs/react": "^6.0.1",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/material": "^7.0.0",
+    "@tinacms/astro": "^0.6.1",
+    "@tinacms/cli": "^2.5.6",
+    "astro": "^5.0.0",
+    "gsap": "^3.15.0",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "tinacms": "^3.11.0",
+    "zustand": "^5.0.1"
+  }
+}

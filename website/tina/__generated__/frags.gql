@@ -1,0 +1,18 @@
+fragment HeroParts on Hero {
+  __typename
+  title
+  image
+}
+
+fragment PageParts on Page {
+  __typename
+  title
+  body
+}
+
+fragment ArtworkParts on Artwork {
+  __typename
+  title
+  image
+  excerpt
+}

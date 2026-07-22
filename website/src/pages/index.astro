@@ -1,0 +1,9 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Page from "../components/lib/Page";
+import { heroRecord } from "../data/hero";
+---
+
+<BaseLayout title="Dali — Home">
+  <Page client:load hero={true} heroImage={heroRecord.image} />
+</BaseLayout>

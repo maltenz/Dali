@@ -1,0 +1,33 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+.astro/
+
+# local environment files
+.env
+.env.*
+!.env.example
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# editor and OS files
+.DS_Store
+.vscode/
+.idea/
+
+# caches
+.turbo/
+.wrangler/
+.eslintcache
+.tsbuildinfo
+coverage/
+node_modules
+tina/__generated__
+
+.sst
