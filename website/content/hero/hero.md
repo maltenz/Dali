@@ -1,4 +1,5 @@
 ---
 title: Dali Susanto
-image: /public.png
+image: /uploads/dali-1.jpg
 ---
+

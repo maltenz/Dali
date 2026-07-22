@@ -8,6 +8,12 @@ var config_default = defineConfig({
     outputFolder: "admin",
     publicFolder: "public"
   },
+  media: {
+    tina: {
+      mediaRoot: "uploads",
+      publicFolder: "public"
+    }
+  },
   schema: {
     collections: [
       {

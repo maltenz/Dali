@@ -8,6 +8,11 @@ export default defineConfig({
   server: {
     port: 3000,
   },
+  vite: {
+    resolve: {
+      dedupe: ["react", "react-dom", "@emotion/react", "@emotion/styled"],
+    },
+  },
   adapter: cloudflare({
     sessionKVBindingName: "KV",
   }),
