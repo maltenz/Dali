@@ -4,9 +4,10 @@
   "type": "module",
   "scripts": {
     "dev": "sst dev",
-    "dev:website": "bun --cwd website run dev",
-    "dev:cms": "bun --cwd website run dev:cms",
-    "build": "bun --cwd website run build",
+    "dev:website": "bun run --cwd website dev",
+    "dev:cms": "bun run --cwd website dev:cms",
+    "dev:all": "sh -c 'bun run dev:website & bun run dev:cms & wait'",
+    "build": "bun run --cwd website build",
     "deploy": "sst deploy",
     "remove": "sst remove"
   },
